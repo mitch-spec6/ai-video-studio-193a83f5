@@ -1,0 +1,33 @@
+# Flask Core
+Flask==3.0.0
+Flask-SQLAlchemy==3.1.1
+Flask-Migrate==4.0.5
+Flask-JWT-Extended==4.6.0
+Flask-Marshmallow==1.2.0
+Flask-CORS==4.0.0
+
+# Database
+SQLAlchemy==2.0.23
+psycopg2-binary==2.9.9
+alembic==1.13.1
+
+# Background Tasks
+celery[redis]==5.3.4
+redis==5.0.1
+
+# AI Providers
+openai==1.6.1
+replicate==0.22.0
+requests==2.31.0
+
+# Security
+Werkzeug==3.0.1
+python-dotenv==1.0.0
+
+# Serialization
+marshmallow==3.20.1
+marshmallow-sqlalchemy==0.30.0
+
+# Utils
+gunicorn==21.2.0
+click==8.1.7
